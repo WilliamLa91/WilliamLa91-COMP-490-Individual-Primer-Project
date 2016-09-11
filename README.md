@@ -2,7 +2,7 @@
 
 SUMMARY:
 - This small project is to obtain all the enrionment variables that are offered by the current webserver system.
-- The QUERY feature can be only used to CAT the source code into output web browser. To do this please add "?Primer.cgi" at the end of the URL. Other keywords cannot be accepted at this point.
+- The QUERY feature can be only used to CAT the source code into output web browser. To do this please add "?Primer.cgi" at the end of the URL. Other keywords cannot be accepted at this point and will receive a warning.
 
 LOG:
 - Create WilliamLa91-COMP-490-Individual-Primer-Project Repository.
