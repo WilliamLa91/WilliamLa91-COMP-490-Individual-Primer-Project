@@ -14,7 +14,8 @@ LOG:
 - Merge the pull request for the changes in code-edits branch.
 - Modify the README.md file in the readme-edits branch.
 - Create a pull request for the changes in readme-edits.
-- Marge the pull request for the changes in readme-edits branch.
-- Modify Primer.cgi in code-edits branch.
+- Merge the pull request for the changes in readme-edits branch.
+- Clean up Primer.cgi in code-edits branch.
 - Create a pull request for the changes in code-edits branch.
 - Merge the pull request for the changes in code-edits branch.
+
