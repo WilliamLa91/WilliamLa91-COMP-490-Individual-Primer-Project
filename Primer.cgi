@@ -12,7 +12,7 @@ if [ -n "${QUERY_STRING}" ] ; then
 		
 	else 
 	
-		echo "This application only support for a quick summary of all environment variables. QUERY is currently off."
+		echo "This application only support for a quick summary of all environment variables. QUERY is currently off. Use ?Primer.cgi to cat"
 		exit 1
 	fi
 		
