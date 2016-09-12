@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "X-COMP-490: ${USER}"
-echo "Content-type: text/plain"
+echo "Content-type: text/html"
 echo ""
 
 if [ -n "${QUERY_STRING}" ] ; then
@@ -18,10 +18,14 @@ if [ -n "${QUERY_STRING}" ] ; then
 		
 else
 	
+		echo 'This is just a fake copy of csun website. Environment Variables are at the bottom.'
+		/usr/bin/curl -o /tmp/csun http://www.csun.edu
+		cat /tmp/csun
 		echo 'Available Environment Variables:'
-		
+		echo ''
+		echo '<pre>'
 		/usr/bin/env
-
+		
 fi
 
 exit 0
