@@ -6,7 +6,7 @@ echo ""
 
 if [ -n "${QUERY_STRING}" ] ; then
 
-	if [ "${QUERY_STRING}" = "simple.cgi" ] ; then
+	if [ "${QUERY_STRING}" = "Primer.cgi" ] ; then
 	
 		cat  ./${QUERY_STRING}
 		
